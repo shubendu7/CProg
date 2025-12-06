@@ -14,7 +14,7 @@ int main(){
     }
     for (i = 3; i <= sqrt(tempN); i = i + 2) {
         while (tempN % i == 0) {
-            printf("%d ", i);
+            printf("%d ", i); 
             tempN = tempN / i;
         }
     }
